@@ -66,3 +66,50 @@ in APPPATH\Views\productos\nuevo.php on line 40.
  7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:36:58 --> Undefined variable $productos
+in APPPATH\Views\clientes\clientes.php on line 27.
+ 1 APPPATH\Views\clientes\clientes.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\clientes\\clientes.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\clientes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/clientes', [], true)
+ 5 APPPATH\Controllers\Clientes.php(85): view('clientes/clientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:39:11 --> Undefined variable $productos
+in APPPATH\Views\clientes\eliminados.php on line 23.
+ 1 APPPATH\Views\clientes\eliminados.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\clientes\\eliminados.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/eliminados', [], true)
+ 5 APPPATH\Controllers\Clientes.php(96): view('clientes/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Clientes->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:42:47 --> Undefined property: App\Controllers\Clientes::$categoriaModel
+in APPPATH\Controllers\Clientes.php on line 102.
+ 1 APPPATH\Controllers\Clientes.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Clientes::$categoriaModel', 'APPPATH\\Controllers\\Clientes.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Clientes->nuevo()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:49:53 --> Undefined property: App\Controllers\Clientes::$categoriaModel
+in APPPATH\Controllers\Clientes.php on line 113.
+ 1 APPPATH\Controllers\Clientes.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Clientes::$categoriaModel', 'APPPATH\\Controllers\\Clientes.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Clientes->editar('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 16:50:37 --> Undefined variable $producto
+in APPPATH\Views\clientes\editar.php on line 17.
+ 1 APPPATH\Views\clientes\editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'APPPATH\\Views\\clientes\\editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/editar', [], true)
+ 5 APPPATH\Controllers\Clientes.php(120): view('clientes/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Clientes->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

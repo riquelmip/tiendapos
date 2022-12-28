@@ -87,3 +87,13 @@ $routes->post('productos/actualizar', 'Productos::actualizar');
 $routes->get('productos/eliminar/(:num)', 'Productos::eliminar/$1');
 $routes->get('productos/eliminados', 'Productos::eliminados');
 $routes->get('productos/reingresar/(:num)', 'Productos::reingresar/$1');
+
+//Clientes
+$routes->get('clientes', 'Clientes::index');
+$routes->get('clientes/nuevo', 'Clientes::nuevo');
+$routes->post('clientes/insertar', 'Clientes::insertar');
+$routes->get('clientes/editar/(:num)', 'Clientes::editar/$1');
+$routes->post('clientes/actualizar', 'Clientes::actualizar');
+$routes->get('clientes/eliminar/(:num)', 'Clientes::eliminar/$1');
+$routes->get('clientes/eliminados', 'Clientes::eliminados');
+$routes->get('clientes/reingresar/(:num)', 'Clientes::reingresar/$1');

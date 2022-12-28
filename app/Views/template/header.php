@@ -31,27 +31,39 @@
 					<li class="sidebar-header">
 						Menú Principal
 					</li>
+
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="<?= base_url()?>/inicio">
 							<i class="fa fa-home"></i><span class="align-middle">Inicio</span>
 						</a>
 					</li>
+
 					<li class="sidebar-item">
-						<a data-bs-target="#dashboards" data-bs-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+						<a data-bs-target="#productos" data-bs-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
 							<i class="fa fa-cubes"></i><span class="align-middle">Productos</span>
 						</a>
-						<ul id="dashboards" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+						<ul id="productos" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
 							<li class="sidebar-item"><a class="sidebar-link" href="<?= base_url()?>/unidades"><i class="fa fa-minus"></i> Unidades</a></li>
 							<li class="sidebar-item"><a class="sidebar-link" href="<?= base_url()?>/categorias"><i class="fa fa-minus"></i> Categorías </a></li>
 							<li class="sidebar-item"><a class="sidebar-link" href="<?= base_url()?>/productos"><i class="fa fa-minus"></i> Productos </a></li>
 						</ul>
 					</li>
-					
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="<?= base_url()?>/clientes">
 							<i class="fa fa-user"></i> <span class="align-middle">Clientes</span>
 						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a data-bs-target="#administracion" data-bs-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
+							<i class="fa fa-cogs"></i><span class="align-middle">Administración</span>
+						</a>
+						<ul id="administracion" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="<?= base_url()?>/configuracion"><i class="fa fa-minus"></i> Configuración</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="<?= base_url()?>/categorias"><i class="fa fa-minus"></i> Categorías </a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="<?= base_url()?>/productos"><i class="fa fa-minus"></i> Productos </a></li>
+						</ul>
 					</li>
 
 					<li class="sidebar-item">
