@@ -6,8 +6,11 @@ class Home extends BaseController
 {
     public function index()
     {
-        $datos['header'] = view('template/header');
-        $datos['footer'] = view('template/footer');
-        return view('tables', $datos);
+        
+        $datos['titulo'] = 'Inicio - TiendaPOS';
+        $datos['titulo_card'] = 'Inicio';
+        echo view('template/header', $datos);
+        echo view('tables', $datos);
+        echo view('template/footer', $datos);
     }
 }

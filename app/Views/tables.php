@@ -1,30 +1,19 @@
-<?= $header ?>
-        <!-- page content -->
-        <div class="right_col" role="main">
-            <div class="">
+<main class="content">
+    <div class="container-fluid p-0">
 
-              <div class="page-title">
-                <div class="title_left">
-                  <h3>Tables <small>Some examples to get you started</small></h3>
+        <h1 class="h3 mb-3"><?= $titulo_card ?></h1>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Empty card</h5>
+                    </div>
+                    <div class="card-body">
+                    </div>
                 </div>
-              </div>
-
-
-              <div class="clearfix"></div>
-              <!-- card -->
-              <div class="col-md-12 col-sm-12  ">
-                <div class="x_panel">
-                  <div class="x_title">
-                    <h2>Table design <small>Custom design</small></h2>
-                    <div class="clearfix"></div>
-                  </div>
-
-                  <div class="x_content">
-                  </div>
-                </div>
-              </div>
-              <!-- card -->
             </div>
         </div>
-        <!-- /page content -->
-<?= $footer ?>
+
+    </div>
+</main>

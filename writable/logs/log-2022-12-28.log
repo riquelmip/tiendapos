@@ -1,0 +1,57 @@
+CRITICAL - 2022-12-28 11:45:12 --> Undefined variable $categorias
+in APPPATH\Views\productos\eliminados.php on line 23.
+ 1 APPPATH\Views\productos\eliminados.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\productos\\eliminados.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\eliminados.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('productos/eliminados', [], true)
+ 5 APPPATH\Controllers\Productos.php(33): view('productos/eliminados', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->eliminados()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 13:30:36 --> Undefined variable $productos
+in APPPATH\Views\productos\editar.php on line 47.
+ 1 APPPATH\Views\productos\editar.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\productos\\editar.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\productos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('productos/editar', [], true)
+ 5 APPPATH\Controllers\Productos.php(93): view('productos/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 13:44:22 --> Undefined array key "id_categoria"
+in APPPATH\Controllers\Productos.php on line 111.
+ 1 APPPATH\Controllers\Productos.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_categoria"', 'APPPATH\\Controllers\\Productos.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 13:44:54 --> Undefined array key "id_categoria"
+in APPPATH\Controllers\Productos.php on line 111.
+ 1 APPPATH\Controllers\Productos.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_categoria"', 'APPPATH\\Controllers\\Productos.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 13:44:58 --> Undefined array key "id_categoria"
+in APPPATH\Controllers\Productos.php on line 111.
+ 1 APPPATH\Controllers\Productos.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_categoria"', 'APPPATH\\Controllers\\Productos.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 13:46:32 --> Undefined array key "id_categoria"
+in APPPATH\Controllers\Productos.php on line 111.
+ 1 APPPATH\Controllers\Productos.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_categoria"', 'APPPATH\\Controllers\\Productos.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Productos->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 15:15:37 --> Undefined variable $unidad
+in APPPATH\Controllers\Unidades.php on line 110.
+ 1 APPPATH\Controllers\Unidades.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidad', 'APPPATH\\Controllers\\Unidades.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Unidades->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
