@@ -2,6 +2,11 @@
     <div class="container-fluid p-0">
 
         <h1 class="h3 mb-3"><?= $titulo_card ?></h1>
+        <?php if(isset($validation)){ ?>
+            <div class="alert alert-danger">
+                <?php echo $validation->listErrors();?>
+            </div>
+        <?php } ?>
 
         <div class="row">
             <div class="col-12">
@@ -13,7 +18,7 @@
                                 <div class="col-sm-12" style="padding-top: 7px;">
                                     <div class="form-group">
                                         <label for="nombre">Nombre</label>
-                                        <input type="text" class="form-control" name="nombre" id="nombre" autofocus required>
+                                        <input type="text" class="form-control" name="nombre" id="nombre" value="<?= set_value('nombre');?>" autofocus required>
                                     </div>
                                 </div>
                             </div>

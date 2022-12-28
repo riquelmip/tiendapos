@@ -2,6 +2,11 @@
     <div class="container-fluid p-0">
 
         <h1 class="h3 mb-3"><?= $titulo_card ?></h1>
+        <?php if(isset($validation)){ ?>
+            <div class="alert alert-danger">
+                <?php echo $validation->listErrors();?>
+            </div>
+        <?php } ?>
 
         <div class="row">
             <div class="col-12">

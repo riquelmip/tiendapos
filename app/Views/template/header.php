@@ -38,7 +38,7 @@
 					</li>
 					<li class="sidebar-item">
 						<a data-bs-target="#dashboards" data-bs-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
-							<i class="fa fa-home"></i><span class="align-middle">Productos</span>
+							<i class="fa fa-cubes"></i><span class="align-middle">Productos</span>
 						</a>
 						<ul id="dashboards" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
 							<li class="sidebar-item"><a class="sidebar-link" href="<?= base_url()?>/unidades"><i class="fa fa-minus"></i> Unidades</a></li>
@@ -49,15 +49,15 @@
 					
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-profile.html">
-              <i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>
-            </a>
+						<a class="sidebar-link" href="<?= base_url()?>/clientes">
+							<i class="fa fa-user"></i> <span class="align-middle">Clientes</span>
+						</a>
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-sign-in.html">
-              <i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Sign In</span>
-            </a>
+						<a class="sidebar-link" href="<?= base_url()?>/cajas">
+							<i class="fa fa-user"></i> <span class="align-middle">Caja</span>
+						</a>
 					</li>
 
 					<li class="sidebar-item">
