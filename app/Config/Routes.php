@@ -97,3 +97,7 @@ $routes->post('clientes/actualizar', 'Clientes::actualizar');
 $routes->get('clientes/eliminar/(:num)', 'Clientes::eliminar/$1');
 $routes->get('clientes/eliminados', 'Clientes::eliminados');
 $routes->get('clientes/reingresar/(:num)', 'Clientes::reingresar/$1');
+
+//Configuracion
+$routes->get('configuracion', 'Configuracion::index');
+$routes->post('configuracion/actualizar', 'Configuracion::actualizar');
