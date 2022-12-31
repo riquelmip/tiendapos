@@ -101,3 +101,33 @@ $routes->get('clientes/reingresar/(:num)', 'Clientes::reingresar/$1');
 //Configuracion
 $routes->get('configuracion', 'Configuracion::index');
 $routes->post('configuracion/actualizar', 'Configuracion::actualizar');
+
+//Cajas
+$routes->get('cajas', 'Cajas::index');
+$routes->get('cajas/nuevo', 'Cajas::nuevo');
+$routes->post('cajas/insertar', 'Cajas::insertar');
+$routes->get('cajas/editar/(:num)', 'Cajas::editar/$1');
+$routes->post('cajas/actualizar', 'Cajas::actualizar');
+$routes->get('cajas/eliminar/(:num)', 'Cajas::eliminar/$1');
+$routes->get('cajas/eliminados', 'Cajas::eliminados');
+$routes->get('cajas/reingresar/(:num)', 'Cajas::reingresar/$1');
+
+//Roles
+$routes->get('roles', 'Roles::index');
+$routes->get('roles/nuevo', 'Roles::nuevo');
+$routes->post('roles/insertar', 'Roles::insertar');
+$routes->get('roles/editar/(:num)', 'Roles::editar/$1');
+$routes->post('roles/actualizar', 'Roles::actualizar');
+$routes->get('roles/eliminar/(:num)', 'Roles::eliminar/$1');
+$routes->get('roles/eliminados', 'Roles::eliminados');
+$routes->get('roles/reingresar/(:num)', 'Roles::reingresar/$1');
+
+//Usuarios
+$routes->get('usuarios', 'Usuarios::index');
+$routes->get('usuarios/nuevo', 'Usuarios::nuevo');
+$routes->post('usuarios/insertar', 'Usuarios::insertar');
+$routes->get('usuarios/editar/(:num)', 'Usuarios::editar/$1');
+$routes->post('usuarios/actualizar', 'Usuarios::actualizar');
+$routes->get('usuarios/eliminar/(:num)', 'Usuarios::eliminar/$1');
+$routes->get('usuarios/eliminados', 'Usuarios::eliminados');
+$routes->get('usuarios/reingresar/(:num)', 'Usuarios::reingresar/$1');
